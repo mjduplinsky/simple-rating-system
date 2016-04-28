@@ -1,4 +1,4 @@
-# image portfolio
+# Simple Rating System
 
 > HTML + SASS rating system via Material Icons
 
@@ -10,10 +10,10 @@ A simple HTML and SASS rating system
 
 `$ cd simple-rating-system`
 
-First run `touch styles.scss styles.css`
+First run `$ touch styles.scss styles.css`
 
-`sass --watch styles.scss:styles.css`
+`$ sass --watch styles.scss:styles.css`
 
 When done:
 
-`Ctrl+C` to exit watch
+`Ctrl+C` via Terminal to exit watch
