@@ -1,0 +1,23 @@
+/* Scss Document */
+.ratings-wrapper {
+  position: relative; }
+  .ratings-wrapper i {
+    margin-right: -5px; }
+  .ratings-wrapper.cost {
+    width: 115px; }
+  .ratings-wrapper.satisfaction, .ratings-wrapper.outcome {
+    width: 123px; }
+  .ratings-wrapper.small {
+    height: 1.5rem;
+    font-size: 1rem; }
+    .ratings-wrapper.small .ratings-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #e0e0e0;
+      white-space: nowrap; }
+      .ratings-wrapper.small .ratings-container.filled {
+        color: #212121;
+        overflow: hidden; }
+
+/*# sourceMappingURL=styles.css.map */

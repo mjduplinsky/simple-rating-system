@@ -1,0 +1,38 @@
+/* Scss Document */
+
+.ratings-wrapper {
+    position: relative;
+    
+    i {
+        margin-right: -5px;
+    }
+    
+    &.cost {
+        width: 115px;
+        
+        
+    }
+    
+    &.satisfaction,
+    &.outcome {
+        width: 123px;
+    }
+    
+    &.small {
+        height: 1.5rem;
+        font-size: 1rem;
+
+        .ratings-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #e0e0e0;
+            white-space:nowrap;
+
+            &.filled {
+                color: #212121;
+                overflow: hidden;
+            }
+        }
+    }
+}
