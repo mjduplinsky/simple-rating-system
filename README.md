@@ -12,7 +12,7 @@ A simple HTML and SASS rating system
 
 First run `$ touch styles.scss styles.css`
 
-`$ sass --watch styles.scss:styles.css`
+`$ sass --watch styles.scss:styles.css --style compressed` compressed will minify on un-watch
 
 When done:
 
